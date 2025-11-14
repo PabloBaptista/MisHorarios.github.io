@@ -13,8 +13,8 @@ let calculado=false
 
 
 
-//const eventStore=initEventStore();
-//initCalendar(eventStore);
+const eventStore=initEventStore();
+initCalendar(eventStore);
 initEventCreateButton();
 initEventFormDialog();
 initNav();
@@ -24,4 +24,5 @@ initEventDetailsDialog();
 
 
 getDaysBetweenTwoDatesIncluded(new Date("2025-11-03"),new Date("2025-11-07"));
+
 
