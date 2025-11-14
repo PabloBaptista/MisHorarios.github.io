@@ -88,10 +88,8 @@ body{
 .calendar{
     height: 100%;
 }
-
-@media(min-width: 768px){
-    .app{
-        display: grid;
-        grid-template-columns: auto 1fr;
-    }
+.app{
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
+
