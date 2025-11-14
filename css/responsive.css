@@ -1,4 +1,4 @@
-@media (min-width:768px){
+@media (min-width:1044px){   /*768*/
     .mobile-only{
         display: none;
     }
@@ -6,7 +6,13 @@
 }
 
 @media (max-width:1044px) {/*1375*//*1044*/
+    .desktop-only{
+        display: none;
+    }
+    .dialog__wrapper{
 
+        margin-top: 200px;
+    }
     .sub-event--title{
         font-size: 8px;
         line-height: 8px;
@@ -150,12 +156,17 @@
     
 
 }
-@media(max-width: 430px){   /*430*/
+@media(max-width: 449px){   /*430*/
     .desktop-only{
         display: none;
     }
     .select__icon{
-        top: 50%;
+        top: 30%;
+    }
+    .dialog__wrapper{
+
+        margin-top: 850px;
+        /* max-width: 350px; */
     }
 
 }
@@ -166,6 +177,11 @@
     }
     .select__icon{
         top: 30%;
+    }
+    .dialog__wrapper{
+
+        margin-top: 650px;
+        /* max-width: 350px; */
     }
 
 }
